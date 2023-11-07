@@ -1,6 +1,6 @@
 # 𝐒𝐭𝐚𝐬𝐡 自用配置
-# 𝐔𝐑𝐋： https://raw.githubusercontent.com/jnlaoshu/MySelf/master/Stash/Config.yaml
-# 𝐔𝐩𝐝𝐚𝐭𝐞： 2023.08.07 10:36
+# 𝐔𝐑𝐋： https://raw.githubusercontent.com/gzxiexl/Myself/main/Stash/Config.yaml?token=GHSAT0AAAAAACE7IQ5AYORNZX5OGXVQITQSZKJ5YLQ
+# 𝐔𝐩𝐝𝐚𝐭𝐞： 2023.11.07
 
 mixed-port: 7890
 allow-lan: true
@@ -11,13 +11,14 @@ ipv6: true
 external-controller: :9090
 
 # > 机场流量信息
-subscribe-url: https://sub.store/download/Server1
+subscribe-url: https://dy.ssrla.de/link/8oeOWH40JDaAtcHY?clash=1
 
 proxy-providers:
   All:
     type: http
-    url: "https://sub.store/download/collection/AllServer"
+    url: "https://dy.ssrla.de/link/8oeOWH40JDaAtcHY?clash=1"
     interval: 86400
+    filter: (?=.*(香港|台湾|日本|韩国|新加坡|美国).)^((?!(专线)).)*$
     path: ./all.yaml
     health-check:
       enable: true
