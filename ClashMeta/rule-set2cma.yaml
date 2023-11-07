@@ -1,3 +1,7 @@
+#自用配置
+#教程来自：https://github.com/DustinWin/clash-tutorials
+#此方案采用 RULE-SET 规则，适用于 Clash.Meta for Android
+
 proxy-providers:
   🛫 我的机场:
     type: http
