@@ -1,3 +1,8 @@
+#自用ClashMeta配置
+#教程来自：https://github.com/DustinWin/clash-tutorials
+#此方案采用 GEOSITE 和 GEOIP 规则搭配 geosite.dat 和 geoip.dat（或 Country.mmdb）
+#白名单模式（没有命中规则的网络流量，统统使用代理，适用于服务器线路网络质量稳定、快速，不缺服务器流量的用户）
+
 proxy-providers:
   # 获取机场订阅链接内的所有节点
   🛫 我的机场:
