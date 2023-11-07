@@ -1,3 +1,6 @@
+#自用ClashMeta配置
+#教程来自：https://github.com/DustinWin/clash-tutorials
+
 proxy-providers:
   🛫 我的机场:
     type: http
@@ -9,6 +12,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 600
+
 mode: rule
 ipv6: true
 log-level: silent
@@ -30,6 +34,7 @@ tun:
   auto-route: true
   auto-detect-interface: true
   strict-route: true
+  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
