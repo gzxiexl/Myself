@@ -73,6 +73,7 @@ rules:
   - DOMAIN-SUFFIX,fanart.tv,🪜 代理域名
   - DOMAIN-KEYWORD,tmdb,🪜 代理域名
   - DOMAIN-KEYWORD,themoviedb,🪜 代理域名
+  - DOMAIN-KEYWORD,unraid,⚡ 直连域名
   # 自定义规则优先放前面
   - GEOSITE,ads,⛔️ 广告域名
   - GEOSITE,private,🏠 私有网络
